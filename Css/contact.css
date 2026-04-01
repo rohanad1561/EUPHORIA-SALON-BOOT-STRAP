@@ -189,6 +189,88 @@ header {
   font-weight: 300;
   
 }
+/* taklk to us------------------ */
+
+.our-contact{
+    padding: 100px 0;
+}
+.img-cntn{
+  max-width: 45px;
+}
+.c-card-hdr{
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--text-black);
+}
+.card-details{
+  max-width: 333px;
+  color: var(--paragraph-txt);
+  font-size: 20px;
+}
+.fimg-cntn{
+  max-width: 536px;
+}
+.title3{
+   font-family: "Marcellus", serif;
+  font-size: 30px;
+  color: var(--primary-color);
+
+}
+/* Get in Touch------------------ */
+
+.getin-sec{
+  padding: 100px 0;
+}
+.testimonial-form-card {
+  background: var(--text-color);
+  border-radius: 20px;
+  padding: 60px 40px 65px;
+  margin-bottom: 20px;
+}
+.testimonial-sec .title2 {
+  margin-bottom: 35px;
+}
+select {
+  padding: 20px;
+}
+
+.getin-form-card textarea,
+input,
+select {
+  width: 100%;
+  border: none;
+}
+.getin-form-card input {
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Manrope", sans-serif;
+}
+.submit {
+  border: none;
+  margin: 0 auto;
+}
+.t-sub {
+  color: var(--text-color);
+}
+label {
+  margin-bottom: 20px;
+}
+textarea {
+  padding: 10px 10px 66px;
+}
+.testimonial-sec .primary-btn {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.testimonial-sec .t-tile {
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+
+
 /* Footer Section------------------ */
 .footer-sec {
   padding: 150px 0;
