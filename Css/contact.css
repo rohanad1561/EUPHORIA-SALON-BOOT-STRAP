@@ -194,6 +194,9 @@ header {
 .our-contact{
     padding: 100px 0;
 }
+.c-card{
+  margin-bottom: 30px;
+}
 .img-cntn{
   max-width: 45px;
 }
@@ -416,6 +419,10 @@ a {
   }
   .navbar-toggler.active-show::before {
     transform: rotate(-45deg) translateX(11px);
+  }
+  /* get in touch */
+  .fimg-cntn{
+    margin:  20px auto;
   }
   /* Footer Section-------------- */
 

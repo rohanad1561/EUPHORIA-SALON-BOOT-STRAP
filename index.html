@@ -12,7 +12,10 @@
       crossorigin="anonymous"
     />
     <!-- Link splider CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
     <!-- Custom Css------------------------ -->
     <link rel="stylesheet" href="./Css/style.css" />
   </head>
@@ -131,7 +134,9 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="./service.html">Service Details</a>
+                      <a class="dropdown-item" href="./service.html"
+                        >Service Details</a
+                      >
                     </li>
                     <li><a class="dropdown-item" href="#">Booking</a></li>
 
@@ -144,7 +149,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="./shop.html">SHOP</a>
+                  <a class="nav-link" href="./shop.html">SHOP</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -157,7 +162,9 @@
                     ABOUT
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./about.html">About Us</a></li>
+                    <li>
+                      <a class="dropdown-item" href="./about.html">About Us</a>
+                    </li>
                     <li><a class="dropdown-item" href="#">Gallery</a></li>
 
                     <li>
@@ -346,7 +353,7 @@
               <div class="col-lg-6">
                 <div class="abt-img position-relative">
                   <div class="play-btn position-absolute">
-                    <a href="">
+                    <a href="" target="_blank">
                       <svg
                         width="55"
                         height="55"
@@ -1385,9 +1392,11 @@
               <span class="sub-heading text-center">MEMBERSHIP</span>
             </div>
             <h2 class="title2 text-center">Choose Our Pricing Plan</h2>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="m-card d-flex">
+
+            <div class="splide" id="auto">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"> <div class="m-card d-flex">
                   <div class="m-img">
                     <img
                       class="h-100 w-100 object-fit-cover"
@@ -1445,19 +1454,17 @@
                       </a>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="m-card d-flex">
+                </div></li>
+                 <li class="splide__slide"> <div class="m-card d-flex">
                   <div class="m-img">
                     <img
                       class="h-100 w-100 object-fit-cover"
-                      src="./asset/member2.png"
+                      src="./asset/member1.png"
                       alt=""
                     />
                   </div>
                   <div class="m-cntn ms-4">
-                    <div class="m-hdr mb-9">Basic Membership</div>
+                    <div class="m-hdr mb-9">Start Membership</div>
                     <div class="m-feature">
                       <div class="m-txt-cntn1 mb-4">
                         <img src="./asset/checkmark-circle-04.png" alt="" />
@@ -1506,19 +1513,17 @@
                       </a>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="m-card d-flex">
+                </div></li>
+                 <li class="splide__slide"> <div class="m-card d-flex">
                   <div class="m-img">
                     <img
                       class="h-100 w-100 object-fit-cover"
-                      src="./asset/member3.png"
+                      src="./asset/member1.png"
                       alt=""
                     />
                   </div>
                   <div class="m-cntn ms-4">
-                    <div class="m-hdr mb-9">Premium Membership</div>
+                    <div class="m-hdr mb-9">Start Membership</div>
                     <div class="m-feature">
                       <div class="m-txt-cntn1 mb-4">
                         <img src="./asset/checkmark-circle-04.png" alt="" />
@@ -1567,7 +1572,186 @@
                       </a>
                     </div>
                   </div>
-                </div>
+                </div></li>
+                 <li class="splide__slide"> <div class="m-card d-flex">
+                  <div class="m-img">
+                    <img
+                      class="h-100 w-100 object-fit-cover"
+                      src="./asset/member1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="m-cntn ms-4">
+                    <div class="m-hdr mb-9">Start Membership</div>
+                    <div class="m-feature">
+                      <div class="m-txt-cntn1 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Aromatherapy Candles</span>
+                      </div>
+                      <div class="m-txt-cntn1 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>True Transformation</span>
+                      </div>
+                      <div class="m-txt-cntn2 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Organic Essential Oils</span>
+                      </div>
+                      <div class="m-txt-cntn2 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Meditation Retreats</span>
+                      </div>
+                    </div>
+                    <div class="member-btn">
+                      <a class="primary-btn" href=""
+                        ><span>BOOK Now</span>
+                        <svg
+                          width="27"
+                          height="32"
+                          viewBox="0 0 27 32"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M18.0963 11.4037L8.55029 20.9497"
+                            stroke="white"
+                            stroke-opacity="0.8"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.4499 19.5356C18.4499 19.5356 19.5679 12.1683 18.4499 11.0503C17.3318 9.93222 9.9646 11.0503 9.9646 11.0503"
+                            stroke="white"
+                            stroke-opacity="0.8"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div></li>
+                 <li class="splide__slide"> <div class="m-card d-flex">
+                  <div class="m-img">
+                    <img
+                      class="h-100 w-100 object-fit-cover"
+                      src="./asset/member1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="m-cntn ms-4">
+                    <div class="m-hdr mb-9">Start Membership</div>
+                    <div class="m-feature">
+                      <div class="m-txt-cntn1 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Aromatherapy Candles</span>
+                      </div>
+                      <div class="m-txt-cntn1 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>True Transformation</span>
+                      </div>
+                      <div class="m-txt-cntn2 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Organic Essential Oils</span>
+                      </div>
+                      <div class="m-txt-cntn2 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Meditation Retreats</span>
+                      </div>
+                    </div>
+                    <div class="member-btn">
+                      <a class="primary-btn" href=""
+                        ><span>BOOK Now</span>
+                        <svg
+                          width="27"
+                          height="32"
+                          viewBox="0 0 27 32"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M18.0963 11.4037L8.55029 20.9497"
+                            stroke="white"
+                            stroke-opacity="0.8"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.4499 19.5356C18.4499 19.5356 19.5679 12.1683 18.4499 11.0503C17.3318 9.93222 9.9646 11.0503 9.9646 11.0503"
+                            stroke="white"
+                            stroke-opacity="0.8"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div></li>
+                 <li class="splide__slide"> <div class="m-card d-flex">
+                  <div class="m-img">
+                    <img
+                      class="h-100 w-100 object-fit-cover"
+                      src="./asset/member1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="m-cntn ms-4">
+                    <div class="m-hdr mb-9">Start Membership</div>
+                    <div class="m-feature">
+                      <div class="m-txt-cntn1 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Aromatherapy Candles</span>
+                      </div>
+                      <div class="m-txt-cntn1 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>True Transformation</span>
+                      </div>
+                      <div class="m-txt-cntn2 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Organic Essential Oils</span>
+                      </div>
+                      <div class="m-txt-cntn2 mb-4">
+                        <img src="./asset/checkmark-circle-04.png" alt="" />
+                        <span>Meditation Retreats</span>
+                      </div>
+                    </div>
+                    <div class="member-btn">
+                      <a class="primary-btn" href=""
+                        ><span>BOOK Now</span>
+                        <svg
+                          width="27"
+                          height="32"
+                          viewBox="0 0 27 32"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M18.0963 11.4037L8.55029 20.9497"
+                            stroke="white"
+                            stroke-opacity="0.8"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M18.4499 19.5356C18.4499 19.5356 19.5679 12.1683 18.4499 11.0503C17.3318 9.93222 9.9646 11.0503 9.9646 11.0503"
+                            stroke="white"
+                            stroke-opacity="0.8"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div></li>
+                  
+                </ul>
               </div>
             </div>
           </div>
@@ -1576,8 +1760,8 @@
 
       <!-- Galarey------------- -->
       <section>
-        <div class="galary-sec ">
-          <div class="container ">
+        <div class="galary-sec">
+          <div class="container">
             <div class="galaarey position-absolute">
               <div class="g-txt text-center">Follow Gallery</div>
               <section
@@ -1588,16 +1772,32 @@
                 <div class="splide__track">
                   <ul class="splide__list">
                     <li class="splide__slide">
-                      <img class="h-100 w-100 object-fit-cover"  src="./asset/galllery-img1.png" alt="" />
+                      <img
+                        class="h-100 w-100 object-fit-cover"
+                        src="./asset/galllery-img1.png"
+                        alt=""
+                      />
                     </li>
                     <li class="splide__slide">
-                      <img class="h-100 w-100 object-fit-cover"  src="./asset/galllery-img2.png" alt="" />
+                      <img
+                        class="h-100 w-100 object-fit-cover"
+                        src="./asset/galllery-img2.png"
+                        alt=""
+                      />
                     </li>
                     <li class="splide__slide">
-                      <img class="h-100 w-100 object-fit-cover"   src="./asset/galllery-img3.png" alt="" />
+                      <img
+                        class="h-100 w-100 object-fit-cover"
+                        src="./asset/galllery-img3.png"
+                        alt=""
+                      />
                     </li>
                     <li class="splide__slide">
-                      <img class="h-100 w-100 object-fit-cover" src="./asset/galllery-img4.png" alt="" />
+                      <img
+                        class="h-100 w-100 object-fit-cover"
+                        src="./asset/galllery-img4.png"
+                        alt=""
+                      />
                     </li>
                   </ul>
                 </div>
@@ -1659,7 +1859,7 @@
                   </div>
                   <form class="user-input" action="">
                     <div class="row">
-                      <div class="col-6">
+                      <div class="col-6 col-sm-12">
                         <label for="">Your name*</label>
                         <input
                           type="text"
@@ -1667,7 +1867,7 @@
                           placeholder="Your name"
                         />
                       </div>
-                      <div class="col-6">
+                      <div class="col-6 col-sm-12">
                         <label for="">Your Email*</label>
                         <input
                           type="email"
@@ -1677,7 +1877,7 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-6">
+                      <div class="col-6 col-sm-12">
                         <label for="">Select Services*</label>
                         <select name="" id="">
                           <option value="1"></option>
@@ -1685,7 +1885,7 @@
                           <option value="3">3</option>
                         </select>
                       </div>
-                      <div class="col-6">
+                      <div class="col-sm-12 col-6">
                         <label for="">Select Date*</label>
                         <input
                           type="date"
@@ -1903,7 +2103,7 @@
         <div class="talk-to-us sec-padding">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6 col-lg-4 ">
+              <div class="col-sm-6 col-lg-4">
                 <div class="talk-card position-relative">
                   <div class="talk-img-cntn">
                     <img
@@ -1913,26 +2113,27 @@
                     />
                   </div>
                   <div class="talk-txt position-absolute">
-                    <div class="social-icon "
-                    >
-                      <div class="s-icon opacity-0 position-absolute d-flex justify-content-evenly align-items-end ">
+                    <div class="social-icon">
+                      <div
+                        class="s-icon opacity-0 position-absolute d-flex justify-content-evenly align-items-end"
+                      >
                         <div class="face-book">
-                        <img src="./asset/facebook-02.png" alt="" />
-                      </div>
-                      <div class="in-sta">
-                        <img src="./asset/instagram.png" alt="" />
-                      </div>
-                      <div class="twi-ter">
-                        <img src="./asset/new-twitter.png" alt="" />
-                      </div>
-                      <div class="you-tube">
-                        <img src="./asset/youtube.png" alt="" />
-                      </div>
+                          <img src="./asset/facebook-02.png" alt="" />
+                        </div>
+                        <div class="in-sta">
+                          <img src="./asset/instagram.png" alt="" />
+                        </div>
+                        <div class="twi-ter">
+                          <img src="./asset/new-twitter.png" alt="" />
+                        </div>
+                        <div class="you-tube">
+                          <img src="./asset/youtube.png" alt="" />
+                        </div>
                       </div>
                     </div>
-                    <div class="s-ad ">
+                    <div class="s-ad">
                       <div class="talk-text-cntn">Anna Doe</div>
-                    <div class="talk-text-cntn2">Consultant</div>
+                      <div class="talk-text-cntn2">Consultant</div>
                     </div>
                   </div>
                 </div>
@@ -2599,7 +2800,7 @@
                   />
                 </div>
               </div>
-              <div class=" col-sm-12 col-xl-2">
+              <div class="col-sm-12 col-xl-2">
                 <div class="feature-img">
                   <img
                     class="h-100 w-100 object-fit-cover"
@@ -2614,10 +2815,10 @@
       </section>
       <!-- Contact Section------------------- -->
       <section>
-        <div class="contact-sec ">
+        <div class="contact-sec">
           <div class="container">
             <div class="row">
-              <div class="col-md-12  col-lg-6">
+              <div class="col-md-12 col-lg-6">
                 <div class="contact-txt mx-auto">
                   <div class="contact-logo-text d-flex align-items-end">
                     <svg
@@ -2717,14 +2918,26 @@
               </div>
               <div class="col-md-12 col-lg-6">
                 <div class="img-hover ms-auto position-relative">
-                  <div class="img-h1  position-absolute">
-                    <img class="h-100 w-100 object-fit-cover" src=".//asset/contact-hover.png" alt="" />
+                  <div class="img-h1 position-absolute">
+                    <img
+                      class="h-100 w-100 object-fit-cover"
+                      src=".//asset/contact-hover.png"
+                      alt=""
+                    />
                   </div>
                   <div class="img-h2 position-absolute">
-                    <img class="h-100 w-100 object-fit-cover" src=".//asset/contact-hover2.png" alt="" />
+                    <img
+                      class="h-100 w-100 object-fit-cover"
+                      src=".//asset/contact-hover2.png"
+                      alt=""
+                    />
                   </div>
                   <div class="img-h3 position-absolute">
-                    <img class="h-100 w-100 object-fit-cover" src=".//asset/contact-hover3.png" alt="" />
+                    <img
+                      class="h-100 w-100 object-fit-cover"
+                      src=".//asset/contact-hover3.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -2901,8 +3114,10 @@
           </div>
         </div>
 
-        <div class="copy-right d-flex justify-content-between ">
-          <div class="copy-txt">© 2026 Copyrights by <a href="">Euphoria</a> . All Rights Reserved</div>
+        <div class="copy-right d-flex justify-content-between">
+          <div class="copy-txt">
+            © 2026 Copyrights by <a href="">Euphoria</a> . All Rights Reserved
+          </div>
           <div class="terms-policy d-flex justify-content-between">
             <div class="t-and-c">Terms & Condition</div>
             <div class="policy ms-4">Privacy Policy</div>
@@ -2918,7 +3133,6 @@
       crossorigin="anonymous"
     ></script>
 
-
     <!-- Jquery CDN--------- -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -2928,8 +3142,8 @@
     ></script>
 
     <!-- Splider js -->
-     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 
     <script src="./js/script.js"></script>
   </body>

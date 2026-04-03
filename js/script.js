@@ -6,7 +6,7 @@ $("documetn").ready(() =>{
 
 })
 
-let splide = new Splide( '.splide', {
+let splide = new Splide( '#image-carousel', {
   type   : 'loop',
   perPage: 4,
   perMove: 1,
@@ -26,3 +26,27 @@ let splide = new Splide( '.splide', {
 } );
 
 splide.mount();
+
+let splidea = new Splide( '#auto', {
+  type   : 'loop',
+  drag   : 'free',
+  focus  : 'center',
+  perPage: 3,
+  autoScroll: {
+    speed: 2,
+  },
+   breakpoints: {
+    1200: {
+      perPage: 2,
+      gap    : '.7rem',
+      
+    },
+    950: {
+      perPage: 1,
+      gap    : '.7rem',
+     
+    },
+  },
+} );
+
+splidea.mount( window.splide.Extensions);

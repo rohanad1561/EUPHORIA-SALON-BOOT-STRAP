@@ -581,6 +581,11 @@ header {
   max-width: 50px;
   margin-left: 10px;
 }
+.mebership-sec .splide__arrow,
+.mebership-sec .splide__pagination {
+  display: none;
+
+}
 
 /* <!-- Galarey------------- --> */
 
@@ -707,7 +712,7 @@ textarea {
 }
 .f-img {
   max-width: 250px;
-      top: 8px;
+  top: 8px;
   right: 0;
 }
 
@@ -1039,6 +1044,29 @@ a {
     right: 50px;
     left: 50px;
   }
+  /* TALK TO US----------------------  */
+  .talk-to-us .title2{
+    font-size: 40px !important; 
+    margin: 10px 0;
+  }
+  .talk-para{
+    margin: 20px 0 !important;
+  }
+  /* conntact sec------------ */
+  .img-h1,
+  .img-h2,
+  .img-h3 {
+    max-width: 250px;
+  }
+  .img-h2 {
+    left: 181px;
+  }
+  .img-h1 {
+    left: 120px;
+  }
+  .img-h3 {
+    left: 50px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -1230,6 +1258,28 @@ a {
   .feature-img {
     margin: 20px auto;
   }
+  /* Contact-sec--------------- */
+  .contact-sec {
+    padding: 100px 0 280px;
+  }
+  .contact-logo-text {
+    justify-content: center;
+  }
+  .t-tile {
+    margin: 20px auto 20px !important;
+  }
+  .contact-btn {
+    justify-content: center;
+  }
+  .img-h2 {
+    left: 481px;
+  }
+  .img-h1 {
+    left: 400px;
+  }
+  .img-h3 {
+    left: 330px;
+  }
 
   /* Footer section */
   .footer-sec {
@@ -1242,8 +1292,6 @@ a {
   .new-hdr {
     margin: 20px 0;
   }
-
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -1365,7 +1413,16 @@ a {
   .galaarey {
     top: 100px;
   }
- 
+  /* Contact sec----------------- */
+  .img-h3 {
+    left: 150px;
+  }
+  .img-h1 {
+    left: 250px;
+  }
+  .img-h2 {
+    left: 350px;
+  }
 
   /* Footer Sec-------------------- */
 
@@ -1500,12 +1557,24 @@ a {
   }
 
   /* Contact section--------------- */
+  .contact-sec{
+    padding: 100px 0 170px;
+  }
   .img-h1,
   .img-h2,
   .img-h3 {
     max-width: 150px;
   }
-  .contact-sec .primary-btn{
+  .img-h3 {
+    left: 140px;
+  }
+  .img-h1 {
+    left: 190px;
+  }
+  .img-h2 {
+    left: 250px;
+  }
+  .contact-sec .primary-btn {
     margin-bottom: 10px !important;
   }
   .secondery-btn {
@@ -1518,7 +1587,6 @@ a {
     justify-content: center;
     margin: 0 auto;
   }
-  
 }
 @media screen and (max-width: 426px) {
   .title2 {
@@ -1623,6 +1691,16 @@ a {
   .terms-policy {
     margin-top: 10px;
   }
+  /* Contact  section-------------- */
+      .img-h3 {
+        left: 80px;
+    }
+    .img-h1 {
+        left: 130px;
+    }
+        .img-h2 {
+        left: 180px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -1657,6 +1735,21 @@ a {
     .n-img {
       max-width: 250px;
     }
+  }
+  /* Contact sec------------ */
+   .img-h1,
+  .img-h2,
+  .img-h3 {
+    max-width: 120px;
+  }
+  .img-h3 {
+    left: 60px;
+  }
+  .img-h1 {
+    left: 110px;
+  }
+  .img-h2 {
+    left: 155px;
   }
 }
 
@@ -1701,5 +1794,15 @@ a {
   /* Faq------------ */
   .v-play-btn {
     left: 130px;
+  }
+  /* Contact section------ */
+    .img-h3 {
+    left: 50px;
+  }
+  .img-h1 {
+    left: 80px;
+  }
+  .img-h2 {
+    left: 120px;
   }
 }
