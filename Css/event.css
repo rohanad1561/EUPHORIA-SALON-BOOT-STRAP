@@ -424,6 +424,24 @@ a {
 
 }
 @media screen and (max-width: 1200px){
+  .up-ev{
+        text-align: center;
+  }
+  .time-date{
+    justify-content: center;
+  }
+  .e-para{
+margin: 20px auto;
+  }
+  .up-btn{
+    flex-direction: column;
+  }
+  .joiin-btn{
+    margin-bottom: 20px;
+  }
+  .ev-img{
+    margin: 20px auto;
+  }
 
 
 }
@@ -505,8 +523,18 @@ a {
     margin: 20px 0;
   }
 
+  .map-img{
+    max-width: none;
+  }
+
 }
 @media screen and (max-width: 768px){
+  .title2 {
+        font-size: 36px !important;
+    }
+    .sub-hd{
+      font-size: 30px;
+    }
     /* Nav-bar SEction---------------- */
   .topbar {
     justify-content: center !important;
@@ -514,6 +542,14 @@ a {
 
   .topbar a > span {
     font-size: 10px;
+  }
+  .pl-hdr{
+    font-size: 30px;
+    text-align: center;
+  }
+  .pl-para{
+    margin: 20px auto;
+    text-align: center;
   }
    /* Footer Sec-------------------- */
 
@@ -530,9 +566,31 @@ a {
 
 }
 @media screen and (max-width: 576px){
+   .sec-padding {
+    padding: 70px 0 70px;
+  }
+  .org-hd{
+    font-size: 30px;
+
+  }
+  .or-name{
+    font-size: 20px;
+  }
+  .e-para{
+    font-size: 16px;
+  }
+  .primary-btn{
+    padding: 10px 10px;
+  }
 
 }
 @media screen and (max-width: 426px){
+  .title2 {
+        font-size: 25px !important;
+    }
+    .sub-hd{
+      font-size: 20px;
+    }
      /* Nav-bar--------------- */
   .icon {
         flex-wrap: wrap;
@@ -567,6 +625,13 @@ a {
     flex-direction: column; 
 
   }
+  .pl-hdr{
+    font-size: 25px;
+    
+  }
+  .pl-para{
+   font-size: 16px;
+  }
 
 }
 @media screen and (max-width: 376px){
@@ -576,6 +641,13 @@ a {
   }
   .terms-policy {
     margin-top: 10px;
+  }
+  .find-btn{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .list ,.m-d{
+    font-size: 16px;
   }
 
 }

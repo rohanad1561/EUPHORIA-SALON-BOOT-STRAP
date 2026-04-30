@@ -584,7 +584,6 @@ header {
 .mebership-sec .splide__arrow,
 .mebership-sec .splide__pagination {
   display: none;
-
 }
 
 /* <!-- Galarey------------- --> */
@@ -665,7 +664,8 @@ textarea {
 }
 .test-card {
   border: 1px solid var(--text-color);
-  padding: 21px 45px 70px 21px;
+  padding: 21px 45px 50px 21px;
+  background-color: rgba(255, 255, 255, 0.053);
 }
 .t-para {
   font-family: "Manrope", sans-serif;
@@ -726,6 +726,18 @@ textarea {
 
 .t-row {
   top: -75px;
+}
+.testimonial-sec .splide__pagination li{
+  display: none;
+}
+.testimonial-sec .splide__arrow{
+  top: 115%;
+}
+.testimonial-sec .splide__arrow--prev {
+    left: 300px;
+}
+.testimonial-sec .splide__arrow--next {
+    right: 300px;
 }
 
 /* TALK TO US--------------------- */
@@ -830,13 +842,13 @@ textarea {
   transform: scale(1.2);
 }
 .b-img {
-  max-width: 350px;
+  max-width: 370px;
 }
 .b-cntn {
   background: var(--text-color);
-  padding: 25px;
-  top: 250px;
-  right: 0;
+  padding: 20px;
+  top: -45px;
+  right: -15px;
 }
 .b-date {
   padding: 10px 10px 0;
@@ -849,6 +861,9 @@ textarea {
 .b-date span {
   font-family: "Marcellus", serif;
   font-size: 20px;
+}
+.b-crad {
+  max-width: 280px;
 }
 
 .b-card-hdr {
@@ -992,6 +1007,16 @@ textarea {
 .copy-right {
   margin-top: 90px;
 }
+.test-text-cntn{
+  text-align: center;
+}
+.test-logo-text{
+  justify-content: center;
+}
+.t-para{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
 
 .copy-txt,
 a {
@@ -1044,12 +1069,20 @@ a {
     right: 50px;
     left: 50px;
   }
+
+  .testimonial-sec .splide__arrow--next{
+    right: 250px;
+
+  }
+  .testimonial-sec .splide__arrow--prev{
+    left: 250px;
+  }
   /* TALK TO US----------------------  */
-  .talk-to-us .title2{
-    font-size: 40px !important; 
+  .talk-to-us .title2 {
+    font-size: 40px ;
     margin: 10px 0;
   }
-  .talk-para{
+  .talk-para {
     margin: 20px 0 !important;
   }
   /* conntact sec------------ */
@@ -1314,7 +1347,7 @@ a {
 
   /* About Section----------------------- */
   .title2 {
-    font-size: 36px;
+    font-size: 36px !important;
   }
   .para {
     text-align: center;
@@ -1413,6 +1446,14 @@ a {
   .galaarey {
     top: 100px;
   }
+  /* Talk to us--------------- */
+     .t-row {
+        top: -10px;
+    }
+    .testimonial-sec .splide__arrow{
+    top: 110%;
+
+    }
   /* Contact sec----------------- */
   .img-h3 {
     left: 150px;
@@ -1523,6 +1564,10 @@ a {
     width: 150px;
     top: -100px;
   }
+  /* Galarey section--------------------- */
+  .galary-sec {
+    padding: 310px 0 270px;
+}
 
   /* TESTIMONIAL section-------------------- */
   .f-img {
@@ -1557,7 +1602,7 @@ a {
   }
 
   /* Contact section--------------- */
-  .contact-sec{
+  .contact-sec {
     padding: 100px 0 170px;
   }
   .img-h1,
@@ -1590,7 +1635,7 @@ a {
 }
 @media screen and (max-width: 426px) {
   .title2 {
-    font-size: 25px;
+    font-size: 25px !important;
   }
   .sub-heading {
     font-size: 16px;
@@ -1658,11 +1703,33 @@ a {
     top: -82px;
   }
 
-  /* How It Works section------- */
-  .t-row {
-    top: -40px;
+  .talk-para{
+    font-size: 16px;
+  }
+    /* Galarey section--------------------- */
+     .galary-sec {
+        padding: 80px 0 270px;
+    }
+        .galaarey {
+        top: 10px;
+    }
+    /* testiminial--------------- */
+     .t-row {
+    top: -10px;
+  }
+  .testimonial-sec .splide__arrow--next{
+    right: 150px;
+
+  }
+  .testimonial-sec .splide__arrow--prev{
+    left: 150px;
   }
 
+    .test-card{
+      padding: 20px 45px 20px 21px;
+    }
+  /* How It Works section------- */
+ 
   .f-card1,
   .f-card2 {
     height: 255px;
@@ -1692,15 +1759,15 @@ a {
     margin-top: 10px;
   }
   /* Contact  section-------------- */
-      .img-h3 {
-        left: 80px;
-    }
-    .img-h1 {
-        left: 130px;
-    }
-        .img-h2 {
-        left: 180px;
-    }
+  .img-h3 {
+    left: 80px;
+  }
+  .img-h1 {
+    left: 130px;
+  }
+  .img-h2 {
+    left: 180px;
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -1736,8 +1803,17 @@ a {
       max-width: 250px;
     }
   }
+  /* testimonial----------- */
+  .fhdr {
+    font-size: 16px;
+    padding: 30px 30px 20px;
+    max-width: 250px;
+  }
+  .user-img {
+    max-width: 75px;
+}
   /* Contact sec------------ */
-   .img-h1,
+  .img-h1,
   .img-h2,
   .img-h3 {
     max-width: 120px;
@@ -1751,7 +1827,29 @@ a {
   .img-h2 {
     left: 155px;
   }
-}
+  .testimonial-sec .splide__arrow--next{
+    right: 110px;
+
+  }
+  .testimonial-sec .splide__arrow--prev{
+    left: 110px;
+  }
+
+    .testimonial-sec .splide__arrow{
+    top: 105%;
+
+    }
+    .test-card{
+      padding: 10px 10px 10px 10px;
+    }
+   
+    .user-info{
+       flex-direction: column;
+
+    }
+   /* Galarey section--------------------- */
+  }
+  
 
 @media screen and (max-width: 320px) {
   /* Nav-bar section----------- */
@@ -1780,10 +1878,18 @@ a {
 
   .num-txt {
     font-size: 20px;
+    margin-left: 0;
   }
   .info-text {
     margin-bottom: 0;
   }
+  /* Gallery section----------------- */
+  .galaarey {
+        top: 0;
+    }
+        .galary-sec {
+        padding: 150px 0 70px;
+    }
 
   /* TREATMENT Section------------------ */
   .float-img {
@@ -1796,7 +1902,7 @@ a {
     left: 130px;
   }
   /* Contact section------ */
-    .img-h3 {
+  .img-h3 {
     left: 50px;
   }
   .img-h1 {
@@ -1804,5 +1910,13 @@ a {
   }
   .img-h2 {
     left: 120px;
+  }
+
+  /* Testimonial------------ */
+  .f-card1,
+  .f-card2 {
+    .primary-btn {
+      padding: 5px 5px !important;
+    }
   }
 }

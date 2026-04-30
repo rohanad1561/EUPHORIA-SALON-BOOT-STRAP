@@ -308,7 +308,7 @@ header {
   outline: 1px solid var(--primary-color);
   margin-bottom: 20px;
 }
-.benifit-card img{
+.benifit-card img {
   max-width: 60px;
 }
 
@@ -473,6 +473,12 @@ a {
   }
 }
 @media screen and (max-width: 992px) {
+  .title2,.story-para{
+     text-align: center;
+  }
+  .card-btn >.primary-btn{
+    margin: 0 auto;
+  }
   /* Navbar Section --------------*/
   .offcanvas {
     flex-direction: column;
@@ -570,6 +576,15 @@ a {
   .a-card-cntn {
     margin-bottom: 20px;
   }
+  .num-txt {
+    font-size: 30px;
+  }
+   .benifit-1{
+      margin:  auto;
+    }
+    .story-img-card{
+      margin: 20px auto;
+    }
 
   /* Awards================ */
   .brand-logo {
@@ -577,10 +592,10 @@ a {
     left: 100px;
     max-width: 150px;
   }
-   /* Brand Feature-------------- */
+  /* Brand Feature-------------- */
   .feature-img {
-        margin: 20px auto;
-    }
+    margin: 20px auto;
+  }
 
   /* Footer Section-------------- */
 
@@ -596,6 +611,9 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+      .title2 {
+        font-size: 36px !important;
+    }
   /* Nav-bar SEction---------------- */
   .topbar {
     justify-content: center !important;
@@ -608,9 +626,14 @@ a {
   /* About Section----------------------- */
   .title2 {
     font-size: 36px;
+   
   }
-  .para {
+  
+  .para ,.story-para  {
     text-align: center;
+  }
+  .benifit-txt{
+    justify-content: center;
   }
 
   .abt-txt {
@@ -640,6 +663,25 @@ a {
     left: 160px;
     bottom: -570px;
   }
+
+  .num-txt {
+    font-size: 25px;
+  }
+
+  .a-card-cntn {
+        margin-left: 20px;
+    }
+    .info-text{
+      margin-left: 0;
+    }
+    /* Benifit dection----------- */
+    .b-hdr{
+      font-size: 20px;
+    }
+    .bcard-para{
+      font-size: 16px;
+    }
+   
 
   /* Awards---------------- */
   .brand-logo {
@@ -706,13 +748,15 @@ a {
   }
 }
 @media screen and (max-width: 426px) {
-
+      .title2 {
+        font-size: 25px !important;
+    }
   /* Nav-bar--------------- */
   .icon {
-        flex-wrap: wrap;
-        justify-content: center !important;
-    }
-    .topbar a > span {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .topbar a > span {
     font-size: 8px;
   }
 
@@ -756,12 +800,15 @@ a {
     font-size: 15px;
     margin: 10px auto 0 !important;
   }
-      .call-btn {
-        display: none !important;
-    }
+  .call-btn {
+    display: none !important;
+  }
 
   .abt-btn {
     margin: 10px 50px;
+  }
+  .story-para{
+    font-size: 16px;
   }
   /* Awards---------------- */
   .brand-logo {
@@ -802,17 +849,16 @@ a {
   }
 }
 @media screen and (max-width: 320px) {
-   /* Nav-bar section----------- */
+  /* Nav-bar section----------- */
   .icon {
     top: 6px;
   }
   /* Bnner--------------- */
-  .banner-btn{
+  .banner-btn {
     flex-direction: column;
     font-size: 16px;
     text-align: center;
   }
-
 
   /* About section---------------------- */
 
@@ -835,5 +881,9 @@ a {
   .brand-logo {
     display: none;
   }
-  
+
+  .num-txt {
+    font-size: 20px;
+    margin-left: 0;
+  }
 }

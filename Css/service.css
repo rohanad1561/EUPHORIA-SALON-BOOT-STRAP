@@ -47,7 +47,7 @@ p {
   font-weight: 700;
 }
 .title1 {
-  font-size: 70px;
+  font-size: 50px;
   color: var(--text-color);
   font-family: "Marcellus", serif;
   margin: 20px 0;
@@ -231,99 +231,87 @@ header {
 
 /* PRICING Section------------------- */
 
-
-.price-sec{
-    padding: 100px 0;
-    background: url(../asset/Service/price-bg.png) no-repeat center / cover;
-}
-.p-card{
-    margin-bottom: 20px;
+.price-sec {
+  padding: 100px 0;
+  background: url(../asset/Service/price-bg.png) no-repeat center / cover;
 }
 
 
-.p-price{
-    padding: 30px;
-    margin-left: auto;
+.p-price {
+  padding: 30px;
+  margin-left: auto;
 }
 
-.p-hdr{
-    font-size: 30px;
-    font-family: "Marcellus", serif;
-
+.p-hdr {
+  font-size: 30px;
+  font-family: "Marcellus", serif;
 }
-.p-para{
-    font-size:20px ;
-    font-family: "Manrope", sans-serif;
+.p-para {
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
 }
 
-.price-txt{
-font-size: 24px;
+.price-txt {
+  font-size: 24px;
   color: var(--primary-color);
   font-family: "Manrope", sans-serif;
 }
-.price{
-   font-size: 40px;
+.price {
+  font-size: 40px;
   color: var(--primary-color);
   font-family: "Marcellus", serif;
-
 }
 
 /*  THERAPY Section---------------------------*/
 
-.therapy-sec{
+.therapy-sec {
   padding: 100px 0;
 }
-.th-card-txt ,.th-card-img {
+.th-card-txt,
+.th-card-img {
   margin-bottom: 20px;
 }
-.th-card-img{
+.th-card-img {
   max-width: 280px;
 }
-.therapy-para{
-  font-size: 20px ;
+.therapy-para {
+  font-size: 20px;
   color: var(--paragraph-txt);
   font-family: "Manrope", sans-serif;
-
 }
-.th-hdr{
+.th-hdr {
   font-size: 22px;
   color: var(--text-black);
   font-family: "Marcellus", serif;
-
 }
-.th-card-para{
-   font-size:20px ;
+.th-card-para {
+  font-size: 20px;
   font-family: "Manrope", sans-serif;
   color: var(--paragraph-txt);
-
 }
 .th-num {
   font-family: "Marcellus", serif;
-    font-size: 40px;
+  font-size: 40px;
   color: var(--primary-color);
-  
-
 }
-.th-line{
+.th-line {
   color: var(--text-black);
   height: 1px;
 }
 
-
 /* Couple Massage------------------ */
-.couplemsg-sec{
+.couplemsg-sec {
   padding: 100px 0;
 }
-.cmsg-img{
+.cmsg-img {
   max-width: 1000px;
 }
 /* BrIDAL Massage--------------------- */
-.bridalmsg-sec{
+.bridalmsg-sec {
   padding: 100px 0;
 }
-.bmsg-img{
+.bmsg-img {
   max-width: 1000px;
-
 }
 /* Footer Section------------------ */
 .footer-sec {
@@ -384,20 +372,19 @@ font-size: 24px;
   color: var(--text-color);
 }
 
-.copy-right{
+.copy-right {
   margin-top: 90px;
 }
 
-.copy-txt , a{
+.copy-txt,
+a {
   font-size: 16px;
   color: var(--paragraph-txt);
-
 }
 
-.terms-policy{
+.terms-policy {
   font-size: 16px;
   color: var(--paragraph-txt);
-
 }
 
 @media screen and (max-width: 992px) {
@@ -465,21 +452,56 @@ font-size: 24px;
   .navbar-toggler.active-show::before {
     transform: rotate(-45deg) translateX(11px);
   }
+  /* THERAPY Section-- */
+  .th-card-img{
+    margin: 0 auto;
+  }
+
+  .couplemsg-sec .title2 {
+    text-align: center !important;
+  }
+  .couplemsg-sec .logo-text{
+    justify-content: center;
+  }
+  .couplemsg-sec .therapy-para{
+    text-align: center !important;
+
+  }
+  .couplemsg-sec .primary-btn{
+    margin: 20px auto;
+  }
+   .bridalemsg-sec .title2 {
+    text-align: center !important;
+  }
+  .bridalemsg-sec .logo-text{
+    justify-content: center;
+  }
+  .bridalemsg-sec .therapy-para{
+    text-align: center !important;
+
+  }
+  .bridalemsg-sec .primary-btn{
+    margin: 20px auto;
+  }
 
   /* Footer Section-------------- */
-   /* Footer section */
+  
   .footer-sec {
     text-align: center;
   }
-  .social-icon{
+  .social-icon {
     justify-content: center;
   }
- .q-hdr ,.new-hdr{
+  .q-hdr,
+  .new-hdr {
     margin: 20px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .title2 {
+    font-size: 36px !important;
+  }
   /* Nav-bar SEction---------------- */
   .topbar {
     justify-content: center !important;
@@ -488,11 +510,40 @@ font-size: 24px;
   .topbar a > span {
     font-size: 10px;
   }
+/*Treatments And Services----------------  */
+  .treatment-catagory {
+    flex-direction: column;
+    text-align: center;
+  }
+  .tc-link {
+    margin-bottom: 10px;
+  }
+/* PRICING Section----------------- */
+  .p-hdr {
+    font-size: 25px;
+    
+}
+.p-para{
+  font-size: 18px;
+
+}
+
+.p-price{
+  padding: 10px;
+  font-size: 30px;
+}
 }
 
 @media screen and (max-width: 576px) {
   .sec-padding {
     padding: 70px 0 70px;
+  }
+  .title1{
+    font-size: 42px;
+
+  }
+  .banner-para{
+    font-size: 20px;
   }
   /* BAnner-------------- */
 
@@ -505,9 +556,6 @@ font-size: 24px;
   }
 
   /* Treatments And Services------------ */
-}
-
-@media screen and (max-width: 576px) {
   .view-btn a {
     font-size: 18px;
   }
@@ -515,23 +563,65 @@ font-size: 24px;
   .view-btn {
     left: 25%;
   }
-}
+  /* PRICING Section----------- */
+  .p-card{
+    flex-direction: column;
+    text-align: center;
+  }
+  .p-txt ,.p-price{
+    margin: 0 auto;
+  }
+
+  }
+
 
 @media screen and (max-width: 426px) {
-   /* Footer section----------------- */
-  .copy-right{
+  .title1 {
+    font-size: 28px;
+  }
+  .title2 {
+    font-size: 25px !important;
+  }
+
+  /* Navabar--------------------- */
+
+  .nav-logo .img {
+    max-width: 100px;
+  }
+
+  .banner-para {
+    font-size: 14px;
+  }
+  .icon {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .mail {
+    margin: 0 10px;
+  }
+  /* Footer section----------------- */
+  .copy-right {
     flex-direction: column;
   }
-  .terms-policy{
+  .terms-policy {
     margin-top: 10px;
   }
-  
 }
 
-@media screen and (max-width: 375px){
-
-    .view-btn {
-    left: 20%;
+@media screen and (max-width: 375px) {
+  /* Nav-bar section----------- */
+  .icon {
+    top: 5px;
   }
 
+  .view-btn {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Nav-bar section----------- */
+  .icon {
+    top: 6px;
+  }
 }

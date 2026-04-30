@@ -439,6 +439,9 @@ a {
 
 }
 @media screen and (max-width: 768px){
+   .title2 {
+        font-size: 36px !important;
+    }
     /* Nav-bar SEction---------------- */
   .topbar {
     justify-content: center !important;
@@ -462,9 +465,22 @@ a {
 
 }
 @media screen and (max-width: 576px){
+   .sec-padding {
+    padding: 70px 0 70px;
+  }
+  .c-card-hdr {
+    font-size: 20px;
+  }
+  .card-details {
+    
+    font-size: 16px;
+}
 
 }
 @media screen and (max-width: 426px){
+  .title2 {
+        font-size: 25px !important;
+    }
      /* Nav-bar--------------- */
   .icon {
         flex-wrap: wrap;
@@ -500,6 +516,9 @@ a {
   }
   .terms-policy {
     margin-top: 10px;
+  }
+  .primary-btn{
+    padding: 10px 10px;
   }
 
 }
