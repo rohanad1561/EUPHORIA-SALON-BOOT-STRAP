@@ -387,6 +387,13 @@ a {
   color: var(--paragraph-txt);
 }
 
+@media screen and (max-width: 1200px){
+  .th-num{
+    margin: 20px 0 !important;
+  }
+
+}
+
 @media screen and (max-width: 992px) {
   /* Navbar Section --------------*/
   .offcanvas {
@@ -531,6 +538,13 @@ a {
 .p-price{
   padding: 10px;
   font-size: 30px;
+}
+.th-hdr{
+  font-size: 20px;
+
+}
+.th-card-para{
+  font-size: 16px;
 }
 }
 

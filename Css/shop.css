@@ -260,15 +260,14 @@ header {
   font-size: 18px;
   color: var(--text-black);
   font-family: "Manrope", sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .price-bar {
   height: 2px;
-  background-color: var(--primary-color);
-  padding: 1px;
   width: 300px;
-  margin: 20px;
+  
 }
+
 
 .num {
   background: var(--primary-color);
@@ -473,9 +472,8 @@ a {
 }
 @media screen and (max-width: 1200px) {
   /* shop-sec---------- */
-  .shop-row{
-    flex-direction:  column-reverse;
-
+  .shop-row {
+    flex-direction: column-reverse;
   }
   .price-rate {
     flex-direction: column;
@@ -484,23 +482,23 @@ a {
   .rating {
     width: 100%;
   }
-  .line{
+  .line {
     width: 100%;
     margin: 0;
   }
-  .price-range{
-        text-align: center;
+  .price-range {
+    text-align: center;
   }
 
-  .price-bar{
-    margin: 20px auto;
+  .price-bar {
+    margin: 0 auto;
   }
-  .price-btn{
+  .price-btn {
     justify-content: space-between;
   }
   .price-btn {
-        flex-direction: column;
-    }
+    flex-direction: column;
+  }
   
 }
 @media screen and (max-width: 992px) {
@@ -568,19 +566,15 @@ a {
   .navbar-toggler.active-show::before {
     transform: rotate(-45deg) translateX(11px);
   }
-  
-  .t-price{
+
+  .t-price {
     margin-bottom: 15px;
   }
   .catagory-hdr {
     font-size: 25px;
     margin: 20px 0 20px;
   }
-  
-  
- 
 
-  
   /* Footer Section-------------- */
 
   .footer-sec {
@@ -611,7 +605,7 @@ a {
     font-size: 10px;
   }
   /* Shop------------- */
- 
+
   .cart-btn {
     flex-direction: column;
   }
@@ -624,21 +618,22 @@ a {
   .t-cntn {
     margin-bottom: 10px;
   }
-  .view-btn{
+  .view-btn {
     padding: 10px;
   }
 
-  .search-bar,.product-catagory,.price-range,.produc-love
-  ,.product-cart,.offer,.review {
+  .search-bar,
+  .product-catagory,
+  .price-range,
+  .produc-love,
+  .product-cart,
+  .offer,
+  .review {
     margin-left: 0 !important;
   }
-      .catagory-hdr {
-        font-size: 20px;
-       
-    }
-  
-  
-  
+  .catagory-hdr {
+    font-size: 20px;
+  }
 
   /* Footer Sec-------------------- */
 
@@ -664,10 +659,9 @@ a {
     padding: 70px 0 70px;
   }
   /* Shop------------------ */
-  .tag-hdr{
+  .tag-hdr {
     text-align: center;
   }
-  
 }
 @media screen and (max-width: 426px) {
   .title2 {
@@ -723,5 +717,5 @@ a {
 
   .search-icon {
     left: 210px;
-}
+  }
 }
