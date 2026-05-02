@@ -471,9 +471,14 @@ a {
   .c-card-hdr {
     font-size: 20px;
   }
+  .title3{
+    font-size: 25px;
+  }
   .card-details {
     
     font-size: 16px;
+
+
 }
 
 }
