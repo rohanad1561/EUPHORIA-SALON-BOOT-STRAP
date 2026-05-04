@@ -134,17 +134,19 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item " href="./service.html"
+                      <a class="dropdown-item" href="./service.html"
                         >Service Details</a
                       >
                     </li>
-                    <li><a class="dropdown-item disabled"  href="#">Booking</a></li>
+                    <li>
+                      <a class="dropdown-item disabled" href="#">Booking</a>
+                    </li>
 
                     <li>
-                      <a class="dropdown-item disabled"  href="#">Membership</a>
+                      <a class="dropdown-item disabled" href="#">Membership</a>
                     </li>
                     <li>
-                      <a class="dropdown-item disabled"  href="#">Gift Card</a>
+                      <a class="dropdown-item disabled" href="#">Gift Card</a>
                     </li>
                   </ul>
                 </li>
@@ -163,9 +165,11 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item  " href="./about.html">About Us</a>
+                      <a class="dropdown-item" href="./about.html">About Us</a>
                     </li>
-                    <li><a class="dropdown-item disabled" href="#">Gallery</a></li>
+                    <li>
+                      <a class="dropdown-item disabled" href="#">Gallery</a>
+                    </li>
 
                     <li>
                       <a class="dropdown-item disabled" href="#">Our Team</a>
@@ -184,12 +188,12 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item " href="./event.html">Event</a>
+                      <a class="dropdown-item" href="./event.html">Event</a>
                     </li>
                     <li><a class="dropdown-item disabled" href="#">Blog</a></li>
-                    <li><a class="dropdown-item disabled" href="#">Testimonial</a></li>
-
-                    
+                    <li>
+                      <a class="dropdown-item disabled" href="#">Testimonial</a>
+                    </li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -849,13 +853,29 @@
       </section>
 
       <!-- Marqueee--------------- -->
-      <section>
-        <marquee behavior="" direction="right">
-          <img src="./asset/Marquee Text 1.png" alt="" />
-        </marquee>
-        <marquee behavior="" direction="left">
-          <img src="./asset/Marquee Text 3.png" alt="" />
-        </marquee>
+      <section class="marquee-section">
+        <div class="marquee">
+        
+  
+    <div class="scroll-content right-scroll">
+      <span>AROMA THERAPY </span><img src="./asset/natural-leaf.png" alt="">
+      <span>BODY MASSAGE </span><img src="./asset/natural-leaf.png" alt="">
+      <span>SAUNA RELAX </span><img src="./asset/natural-leaf.png" alt="">
+      <span>HYDRO THERAPY </span><img src="./asset/natural-leaf.png" alt="">
+      <span>FACE MASK </span><img src="./asset/natural-leaf.png" alt="">
+    </div>
+     <!-- duplicate -->
+    <div class="scroll-content left-scroll">
+      <span>AROMA THERAPY </span><img src="./asset/natural-leaf.png" alt="">
+      <span>BODY MASSAGE </span><img src="./asset/natural-leaf.png" alt="">
+      <span>SAUNA RELAX </span><img src="./asset/natural-leaf.png" alt="">
+      <span>HYDRO THERAPY </span><img src="./asset/natural-leaf.png" alt="">
+      <span>FACE MASK </span><img src="./asset/natural-leaf.png" alt="">
+    </div>
+  </div>
+</div>
+        </div>
+
       </section>
 
       <!-- New Spa Section------------------- -->
@@ -1897,7 +1917,7 @@
                           <option value="3">3</option>
                         </select>
                       </div>
-                      <div class=" col-lg-6 col-sm-12 ">
+                      <div class="col-lg-6 col-sm-12">
                         <label for="">Select Date*</label>
                         <input
                           type="date"
@@ -1971,132 +1991,134 @@
                     distribution of letters.
                   </p>
                 </div>
-                 <div class="splide" id="t-card-slider">
+                <div class="splide" id="t-card-slider">
                   <div class="splide__track">
                     <ul class="splide__list">
-                      <li class="splide__slide"> <div class="test-card">
-                  <div
-                    class="test-card-info d-flex justify-content-between align-items-center"
-                  >
-                    <div class="user-info d-flex">
-                      <div class="user-img me-5">
-                        <img
-                          class="h-100 w-100 object-fit-cover"
-                          src="./asset/user-img.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="user-name">
-                        <div class="u-name">Kevin Smith</div>
-                        <div class="user-c">Customer</div>
-                        <div class="rating">
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
+                      <li class="splide__slide">
+                        <div class="test-card">
+                          <div
+                            class="test-card-info d-flex justify-content-between align-items-center"
+                          >
+                            <div class="user-info d-flex">
+                              <div class="user-img me-5">
+                                <img
+                                  class="h-100 w-100 object-fit-cover"
+                                  src="./asset/user-img.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="user-name">
+                                <div class="u-name">Kevin Smith</div>
+                                <div class="user-c">Customer</div>
+                                <div class="rating">
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="colon">
+                              <img
+                                class=""
+                                src="./asset/quote-down-circle.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="card-para">
+                            There are many variations of passages Lorem Ipsum
+                            but the majority have suffered alteration in some
+                            form, by injected humour.
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="colon">
-                      <img
-                        class=""
-                        src="./asset/quote-down-circle.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="card-para">
-                    There are many variations of passages Lorem Ipsum but the
-                    majority have suffered alteration in some form, by injected
-                    humour.
-                  </div>
-                </div></li>
-                      <li class="splide__slide"> <div class="test-card">
-                  <div
-                    class="test-card-info d-flex justify-content-between align-items-center"
-                  >
-                    <div class="user-info d-flex">
-                      <div class="user-img me-5">
-                        <img
-                          class="h-100 w-100 object-fit-cover"
-                          src="./asset/user-img2.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="user-name">
-                        <div class="u-name">Kevin Smith</div>
-                        <div class="user-c">Customer</div>
-                        <div class="rating">
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
+                      </li>
+                      <li class="splide__slide">
+                        <div class="test-card">
+                          <div
+                            class="test-card-info d-flex justify-content-between align-items-center"
+                          >
+                            <div class="user-info d-flex">
+                              <div class="user-img me-5">
+                                <img
+                                  class="h-100 w-100 object-fit-cover"
+                                  src="./asset/user-img2.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="user-name">
+                                <div class="u-name">Kevin Smith</div>
+                                <div class="user-c">Customer</div>
+                                <div class="rating">
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="colon">
+                              <img
+                                class=""
+                                src="./asset/quote-down-circle.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="card-para">
+                            There are many variations of passages Lorem Ipsum
+                            but the majority have suffered alteration in some
+                            form, by injected humour.
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="colon">
-                      <img
-                        class=""
-                        src="./asset/quote-down-circle.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="card-para">
-                    There are many variations of passages Lorem Ipsum but the
-                    majority have suffered alteration in some form, by injected
-                    humour.
-                  </div>
-                </div></li>
-                      <li class="splide__slide"> <div class="test-card">
-                  <div
-                    class="test-card-info d-flex justify-content-between align-items-center"
-                  >
-                    <div class="user-info d-flex">
-                      <div class="user-img me-5">
-                        <img
-                          class="h-100 w-100 object-fit-cover"
-                          src="./asset/user-img3.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="user-name">
-                        <div class="u-name">Kevin Smith</div>
-                        <div class="user-c">Customer</div>
-                        <div class="rating">
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
-                          <img src="./asset/star.png" alt="" />
+                      </li>
+                      <li class="splide__slide">
+                        <div class="test-card">
+                          <div
+                            class="test-card-info d-flex justify-content-between align-items-center"
+                          >
+                            <div class="user-info d-flex">
+                              <div class="user-img me-5">
+                                <img
+                                  class="h-100 w-100 object-fit-cover"
+                                  src="./asset/user-img3.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="user-name">
+                                <div class="u-name">Kevin Smith</div>
+                                <div class="user-c">Customer</div>
+                                <div class="rating">
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                  <img src="./asset/star.png" alt="" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="colon">
+                              <img
+                                class=""
+                                src="./asset/quote-down-circle.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="card-para">
+                            There are many variations of passages Lorem Ipsum
+                            but the majority have suffered alteration in some
+                            form, by injected humour.
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="colon">
-                      <img
-                        class=""
-                        src="./asset/quote-down-circle.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="card-para">
-                    There are many variations of passages Lorem Ipsum but the
-                    majority have suffered alteration in some form, by injected
-                    humour.
-                  </div>
-                </div></li>
-                      
+                      </li>
                     </ul>
                   </div>
                 </div>
-                
-               
               </div>
             </div>
-           
           </div>
         </div>
 
@@ -2357,7 +2379,7 @@
                       alt=""
                     />
                   </div>
-                   <div class="talk-txt position-absolute">
+                  <div class="talk-txt position-absolute">
                     <div class="social-icon">
                       <div
                         class="s-icon opacity-0 position-absolute d-flex justify-content-evenly align-items-end"
@@ -2392,7 +2414,7 @@
                       alt=""
                     />
                   </div>
-                   <div class="talk-txt position-absolute">
+                  <div class="talk-txt position-absolute">
                     <div class="social-icon">
                       <div
                         class="s-icon opacity-0 position-absolute d-flex justify-content-evenly align-items-end"

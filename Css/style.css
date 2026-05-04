@@ -390,6 +390,56 @@ header {
   max-width: 590px;
 }
 
+.marquee-section {
+  padding: 50px 0;
+  overflow: hidden;
+}
+.marquee {
+  width: max-content;
+}
+
+.marquee span {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  font-family: "Marcellus", serif;
+  font-size: 70px;
+  color: var(--paragraph-txt);
+}
+
+.scroll-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.left-scroll {
+  animation: scrollLeft 15s linear infinite;
+}
+
+.right-scroll {
+  animation: scrollRight 15s linear infinite;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 /* New Spa section */
 .new-spa {
   padding: 150px 0 150px;
@@ -727,17 +777,17 @@ textarea {
 .t-row {
   top: -75px;
 }
-.testimonial-sec .splide__pagination li{
+.testimonial-sec .splide__pagination li {
   display: none;
 }
-.testimonial-sec .splide__arrow{
+.testimonial-sec .splide__arrow {
   top: 115%;
 }
 .testimonial-sec .splide__arrow--prev {
-    left: 300px;
+  left: 300px;
 }
 .testimonial-sec .splide__arrow--next {
-    right: 300px;
+  right: 300px;
 }
 
 /* TALK TO US--------------------- */
@@ -1007,13 +1057,13 @@ textarea {
 .copy-right {
   margin-top: 90px;
 }
-.test-text-cntn{
+.test-text-cntn {
   text-align: center;
 }
-.test-logo-text{
+.test-logo-text {
   justify-content: center;
 }
-.t-para{
+.t-para {
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -1070,16 +1120,15 @@ a {
     left: 50px;
   }
 
-  .testimonial-sec .splide__arrow--next{
+  .testimonial-sec .splide__arrow--next {
     right: 250px;
-
   }
-  .testimonial-sec .splide__arrow--prev{
+  .testimonial-sec .splide__arrow--prev {
     left: 250px;
   }
   /* TALK TO US----------------------  */
   .talk-to-us .title2 {
-    font-size: 40px ;
+    font-size: 40px;
     margin: 10px 0;
   }
   .talk-para {
@@ -1447,13 +1496,12 @@ a {
     top: 100px;
   }
   /* Talk to us--------------- */
-     .t-row {
-        top: -10px;
-    }
-    .testimonial-sec .splide__arrow{
+  .t-row {
+    top: -10px;
+  }
+  .testimonial-sec .splide__arrow {
     top: 110%;
-
-    }
+  }
   /* Contact sec----------------- */
   .img-h3 {
     left: 150px;
@@ -1567,7 +1615,7 @@ a {
   /* Galarey section--------------------- */
   .galary-sec {
     padding: 310px 0 270px;
-}
+  }
 
   /* TESTIMONIAL section-------------------- */
   .f-img {
@@ -1703,33 +1751,32 @@ a {
     top: -82px;
   }
 
-  .talk-para{
+  .talk-para {
     font-size: 16px;
   }
-    /* Galarey section--------------------- */
-     .galary-sec {
-        padding: 80px 0 270px;
-    }
-        .galaarey {
-        top: 10px;
-    }
-    /* testiminial--------------- */
-     .t-row {
+  /* Galarey section--------------------- */
+  .galary-sec {
+    padding: 80px 0 270px;
+  }
+  .galaarey {
+    top: 10px;
+  }
+  /* testiminial--------------- */
+  .t-row {
     top: -10px;
   }
-  .testimonial-sec .splide__arrow--next{
+  .testimonial-sec .splide__arrow--next {
     right: 150px;
-
   }
-  .testimonial-sec .splide__arrow--prev{
+  .testimonial-sec .splide__arrow--prev {
     left: 150px;
   }
 
-    .test-card{
-      padding: 20px 45px 20px 21px;
-    }
+  .test-card {
+    padding: 20px 45px 20px 21px;
+  }
   /* How It Works section------- */
- 
+
   .f-card1,
   .f-card2 {
     height: 255px;
@@ -1811,7 +1858,7 @@ a {
   }
   .user-img {
     max-width: 75px;
-}
+  }
   /* Contact sec------------ */
   .img-h1,
   .img-h2,
@@ -1827,29 +1874,25 @@ a {
   .img-h2 {
     left: 155px;
   }
-  .testimonial-sec .splide__arrow--next{
+  .testimonial-sec .splide__arrow--next {
     right: 110px;
-
   }
-  .testimonial-sec .splide__arrow--prev{
+  .testimonial-sec .splide__arrow--prev {
     left: 110px;
   }
 
-    .testimonial-sec .splide__arrow{
+  .testimonial-sec .splide__arrow {
     top: 105%;
-
-    }
-    .test-card{
-      padding: 10px 10px 10px 10px;
-    }
-   
-    .user-info{
-       flex-direction: column;
-
-    }
-   /* Galarey section--------------------- */
   }
-  
+  .test-card {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .user-info {
+    flex-direction: column;
+  }
+  /* Galarey section--------------------- */
+}
 
 @media screen and (max-width: 320px) {
   /* Nav-bar section----------- */
@@ -1885,11 +1928,11 @@ a {
   }
   /* Gallery section----------------- */
   .galaarey {
-        top: 0;
-    }
-        .galary-sec {
-        padding: 150px 0 70px;
-    }
+    top: 0;
+  }
+  .galary-sec {
+    padding: 150px 0 70px;
+  }
 
   /* TREATMENT Section------------------ */
   .float-img {
